@@ -32,10 +32,13 @@ void Ex1(int n){
   for (i = 0; i <= n; i++)
   {
     for (c = 0; c <= (n - 2); c++)
+	{
         printf("");
+	}
     for (c = 0 ; c <= i; c++)
-      printf("%ld ",factorial(i)/(factorial(c)*factorial(i-c)));
- 
+	{
+        printf("%ld ",factorial(i)/(factorial(c)*factorial(i-c)));
+	}
     printf("\n");
   }
 }
